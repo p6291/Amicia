@@ -16,7 +16,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 20))
 
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
@@ -52,7 +52,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 10))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -78,13 +78,13 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/a214852e89411aabddc00.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/32506845a6aab714f68d1.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/a214852e89411aabddc00.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/e3b76de09c1a110732494.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/a214852e89411aabddc00.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/a214852e89411aabddc00.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/8a3c3b2f23eab638e3d33.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/8a3c3b2f23eab638e3d33.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
