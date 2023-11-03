@@ -25,7 +25,7 @@ HELP_2 = """
 """
 
 HELP_3 = """
-<u><b>/queue</b></u> 
+<u><b>Music queue</b></u> 
 
 /queue : 𝖲𝗁𝗈𝗐𝗌 𝖳𝗁𝖾 𝖰𝗎𝖾𝗎𝖾𝖽 𝖳𝗋𝖺𝖼𝗄𝗌 𝖫𝗂𝗌𝗍.
 
@@ -79,7 +79,7 @@ also works for Live streaming
 HELP_10 = """
 <b><u>Global Stats</b></u>
 
-/stats [shows the global stat and most played songs users etc..]
+/Globalstats [shows the global stat and most played songs users etc..]
 """
 
 HELP_11 = """
