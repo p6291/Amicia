@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("DevilsHeavenMF")
-                await self.one.join_chat("FallenAssociation")
+                await self.one.join_chat("XmusicBots")
+                await self.one.join_chat("Xmusicbots")
             except:
                 pass
             assistants.append(1)
@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("DevilsHeavenMF")
-                await self.one.join_chat("FallenAssociation")
+                await self.two.join_chat("Xmusicbots")
+                await self.one.join_chat("xmusicbots")
             except:
                 pass
             assistants.append(2)
