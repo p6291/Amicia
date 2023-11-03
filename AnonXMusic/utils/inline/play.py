@@ -43,20 +43,19 @@ def stream_markup_timer(_, chat_id, played, dur):
     elif 40 <= umm < 50:
         bar = "---Join voice chat---"
     elif 50 <= umm < 60:
-        bar = "---Use /play to queue---"
+        bar = "---Use /play---"
     elif 60 <= umm < 70:
         bar = "---Lag/ads free---"
     elif 70 <= umm < 80:
-        bar = "---Processing queue if any---"
+        bar = "---Processing queue---"
     elif 80 <= umm < 95:
         bar = "---Almost done---"
     else:
-        bar = "---streaming next music on queue---"
+        bar = "---Thanks using bot---+"
     buttons = [
         [
             InlineKeyboardButton(text="Reaume", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="Pause", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="Replay music", callback_data=f"ADMIN Replay|{chat_id}"),
             InlineKeyboardButton(text="Skip music", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="End stream", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
@@ -76,8 +75,7 @@ def stream_markup(_, chat_id):
         [
             InlineKeyboardButton(text="Resume", callback_data=f"ADMIN Resume|{chat_id}"),
             InlineKeyboardButton(text="Pause", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="Replay music", callback_data=f"ADMIN Replay|{chat_id}"),
-            InlineKeyboardButton(text="Skip music", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="Skip Music", callback_data=f"ADMIN Skip|{chat_id}"),
             InlineKeyboardButton(text="End stream", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
