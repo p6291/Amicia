@@ -32,30 +32,16 @@ def stream_markup_timer(_, chat_id, played, dur):
     duration_sec = time_to_seconds(dur)
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
-    if 0 < umm <= 10:
-        bar = "--- started streaming ---"
-    elif 10 < umm < 20:
-        bar = "--- streaming now ---"
-    elif 20 <= umm < 30:
-        bar = "--- XMusicbot ---"
-    elif 30 <= umm < 40:
-        bar = "--- via Spotify ---"
-    elif 40 <= umm < 50:
-        bar = "--- Join voice chat ---"
-    elif 50 <= umm < 60:
-        bar = "--- Use /play ---"
-    elif 60 <= umm < 70:
-        bar = "--- Lag/ads free ---"
-    elif 70 <= umm < 80:
-        bar = "--- Join updates ---"
-    elif 80 <= umm < 95:
-        bar = "--- Processing ---"
+    if  < umm <= :
+        bar = "➕Add To Your Group➕"
+    elif  <= umm < :
+        bar = "➕Add To Your Group➕"
     else:
-        bar = "--- Stream ended ---+"
+        bar = "Stream Ended"
     buttons = [
         [
-            InlineKeyboardButton(text="Skip Music", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="End stream", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="Skip Song", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="Stop Stream", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
         [
             InlineKeyboardButton(
