@@ -59,8 +59,8 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=f"View Playlist",
-                callback_data="",
+                text=f"❔Queuelist",
+                callback_data=f"GetQueued {CPLAY}|{videoid}",
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
