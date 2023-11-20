@@ -84,10 +84,6 @@ def stream_markup(_, chat_id):
     ]
     return buttons
 
-    ]
-    return buttons
-
-
 def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
     buttons = [
         [
