@@ -59,7 +59,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=_["H_B_3"],
+                text=_["QU_B_1"],
                 callback_data=f"GetQueued {CPLAY}|{videoid}",
             )
         ],
@@ -71,10 +71,19 @@ def stream_markup_timer(_, chat_id, played, dur):
 def stream_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="Skip Music", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="End stream", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(text="Skip Song", callback_data=f"ADMIN Skip|{chat_id}"),
+            InlineKeyboardButton(text="Stop Stream", callback_data=f"ADMIN Stop|{chat_id}"),
+        ],
+        [
+            InlineKeyboardButton(
+                text=_["QU_B_1"],
+                callback_data=f"GetQueued {CPLAY}|{videoid}",
+            )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
+    ]
+    return buttons
+
     ]
     return buttons
 
