@@ -6,7 +6,7 @@ and live stream link to stream live
 ×/queue : 𝖲𝗁𝗈𝗐𝗌 𝖳𝗁𝖾 𝖰𝗎𝖾𝗎𝖾𝖽 𝖳𝗋𝖺𝖼𝗄𝗌 𝖫𝗂𝗌𝗍.
 ×/player : 𝖦𝖾𝗍 𝖠 𝖨𝗇𝗍𝖾𝗋𝖺𝖼𝗏𝗍𝗂𝖼𝖾 𝖯𝗅𝖺𝗒𝖾𝗋 𝖯𝖺𝗇𝖾𝗅
 
-🗯️If you have any doubts Ask at support chat. @X1botchat
+🗯️If you have any doubts Ask at support chat. @X1botchat.
 """
 
 HELP_2 = """
@@ -31,7 +31,7 @@ HELP_2 = """
 ×/channelplay [ 𝖢𝗁𝖺𝗍 𝖴𝗌𝖾𝗋𝗇𝖺𝗆𝖾 𝖮𝗋 𝖨𝖣 ] 𝖮𝗋 [ 𝖣𝗂𝗌𝖺𝖻𝗅𝖾 ] : 
 𝖢𝗈𝗇𝗇𝖾𝖼𝗍 𝖳𝗈 𝖠 𝖦𝗋𝗈𝗎𝗉 𝖠𝗇𝖽 𝖲𝗍𝖺𝗋𝗍𝗌 𝖲𝗍𝗋𝖾𝖺𝗆𝗂𝗇𝗀 𝖳𝗋𝖺𝖼𝗄𝗌 𝖡𝗒 𝖳𝗁𝖾 𝖧𝖾𝗅𝗉 𝖮𝖿 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖲𝖾𝗇𝗍 𝖨𝗇 𝖦𝗋𝗈𝗎𝗉 .
 
-🗯️If you have any doubts Ask at support chat. @X1botchat
+🗯️If you have any doubts Ask at support chat. @X1botchat.
 """
 HELP_3 = """
 <b><u>Only Works in Groups:</b></u>
@@ -40,9 +40,12 @@ HELP_3 = """
 <b><u>❓Inline Buttons Help:</b></u>
 ×You Can see diffent Buttons when you use SETTINGS command
 1, Auth users : The button opens panel of Approved users settings in your group. Click Auth users Button to open help panel about the Auth panel.
-2, Language : To set language in your group (Still under development)
-3, Playmode : To open playmode settings in your group. Click The function name to open help window about Button
-4, Voting : When voting mode is enabled users without admin rights can use admin commands via voting clock voting buttons to open help window about button
 
-🗯️If you have any doubts Ask at support chat. @X1botchat
+2, Language : To set language in your group (Still under development).
+
+3, Playmode : To open playmode settings in your group. Click The function name to open help window about Button.
+
+4, Voting : When voting mode is enabled users without admin rights can use admin commands via voting clock voting buttons to open help window about button.
+
+🗯️If you have any doubts Ask at support chat. @X1botchat.
 """
