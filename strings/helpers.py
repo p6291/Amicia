@@ -36,8 +36,8 @@ HELP_3 = """
 
 ×/settings : to open group settings panel
 <b><u>❓Inline Buttons Help:</b></u>
-×You Can see diffent Buttons when you use SETTINGS command
-l
+×You Can see diffent Buttons when you use SETTINGS command.
+
 1, Auth users : The button opens panel of Approved users settings in your group. Click Auth users Button to open help panel about the Auth panel.
 
 2, Language : To set language in your group (Still under development).
