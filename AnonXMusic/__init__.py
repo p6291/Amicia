@@ -19,3 +19,4 @@ from .platforms import *
 
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
+Carbon = CarbonAPI()
