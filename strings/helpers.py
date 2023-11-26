@@ -40,7 +40,7 @@ HELP_3 = """
 
 3, Playmode : To open playmode settings in your group. Click The function name to open help window about Button.
 
-4, Voting : When voting mode is enabled users without admin rights can use admin commands via voting clock voting buttons to open help window about button.
+4, Voting : When voting mode is enabled users without admin rights can use admin commands via voting. click voting buttons to open help window about button.
 
 🗯️If you have any doubts Ask at support chat. @X1botchat.
 """
