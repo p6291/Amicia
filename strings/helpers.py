@@ -6,7 +6,7 @@ and live stream link to stream live
 ×/queue : 𝖲𝗁𝗈𝗐𝗌 𝖳𝗁𝖾 𝖰𝗎𝖾𝗎𝖾𝖽 𝖳𝗋𝖺𝖼𝗄𝗌 𝖫𝗂𝗌𝗍.
 ×/player : 𝖦𝖾𝗍 𝖠 𝖨𝗇𝗍𝖾𝗋𝖺𝖼𝗏𝗍𝗂𝖼𝖾 𝖯𝗅𝖺𝗒𝖾𝗋 𝖯𝖺𝗇𝖾𝗅
 
-🗯️If you have any doubts Ask at support chat. @X1botchat.
+🗯️If you have any doubts Ask at support chat. @Dicksupport1.
 """
 
 HELP_2 = """
@@ -25,7 +25,7 @@ HELP_2 = """
 ×/shuffle : 𝖲𝗁𝗎𝖿𝖿𝗅𝖾'𝗌 𝖳𝗁𝖾 𝖰𝗎𝖾𝗎𝖾 .
 ×/reboot : If you face any bugs on your group use this command.
 
-🗯️If you have any doubts Ask at support chat. @X1botchat.
+🗯️If you have any doubts Ask at support chat. @DickSupport1.
 """
 HELP_3 = """
 <b><u>Only Works in Groups:</b></u>
